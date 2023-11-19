@@ -287,6 +287,14 @@ header {
 
 @media screen and (max-width: 840px) {
     
+    .container {
+        border-radius: 0px;
+    }
+
+    .main {     
+        margin: 0vh 0% 10vh 0%;
+    }
+    
     header {
         display: none;
     }
@@ -296,7 +304,7 @@ header {
         top: 10px;
         position: fixed;
         max-width: 300px;
-        border-radius: 5px;
+        border-radius: 20px;
         margin: 1rem;
         overflow: hidden;
         background: #00967d;
@@ -304,7 +312,7 @@ header {
     }
     
     .btn-top {
-        padding: 10px;
+        padding: 5px;
         width: 100%;
         border: none;
         outline: none;
@@ -317,7 +325,7 @@ header {
     }
     
     .btn-top img {
-        width: 45px;
+        width: 40px;
     }
     
     .links ul  {
@@ -348,4 +356,46 @@ header {
     }
 
 
+}
+
+@media screen and (max-width: 412px) {
+    .contentBar::after {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contentBar::after {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .contentBar::after {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    .contentBar::after {
+        left: 49%;
+    }
+}
+
+@media screen and (max-width: 307px) {
+    .contentBar::after {
+        left: 52%;
+    }
+}
+
+@media screen and (max-width: 271px) {
+    .contentBar::after {
+        left: 58%;
+    }
+}
+
+@media screen and (max-width: 249px) {
+    .contentBar::after {
+        left: 63%;
+    }
 }
